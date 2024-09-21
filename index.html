@@ -1,0 +1,853 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт TheFoZzY: ресурс паки, клиенты, моды, карты, Iforium клиент. Всё для Minecraft 1.1.5"> 
+        <link rel="icon" href="https://telegra.ph/file/1f460c7081dc4c77eb919.jpg" type="image/png"> 
+         <link rel="stylesheet" href="fps.css">    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5651386141813934"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="fps-counter">FPS: 0</div>
+    <img id="activate-button" src="https://cdn-icons-png.flaticon.com/512/6545/6545915.png" alt="Activate Button" width="50" height="50">
+     <script id="dynamicScript" src="fps.js"></script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RPFOZZY</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body onload="showHome()">
+         <link rel="stylesheet" href="rpfozzy.css">    
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5651386141813934"
+     crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="loader-wrapper">
+    <div class="loader"></div>
+  </div>
+  <div class="content"></div>
+       <script id="dynamicScript" src="rpfozzy.js"></script>
+  <div class="panel-container-left">
+    <button class="panel-button" id="panel-button"><img src="https://img.icons8.com/?size=160&amp;id=FoTRkp18eB9r&amp;format=png" alt="Site"></button>
+  </div>
+  <div class="modal" id="modal">
+     <span class="close close9">×</span>
+    <div class="modal-content">
+      <iframe src="https://rpfozzy.github.io/Totem/" id="modal-iframe" name="modal-iframe"></iframe>
+    </div>
+  </div>
+  <div class="search-container">
+    <button class="search-button" id="search-button"><img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" alt="Search"></button>
+    <div class="search-input" id="search-input">
+      <div style="font-weight: bold; color: red; margin-bottom: 5px;">
+        ❗️❗️СНАЧАЛА ВЫБЕРИ РУБРИКУ В КОТОРОЙ НУЖНО ИСКАТЬ❗️❗️
+      </div><input type="text" id="search-field" placeholder="Поиск..."> <button type="button" id="search-cancel">Отмена</button> <button type="button" id="search-submit">Искать</button>
+    </div>
+    <ul class="search-results" id="search-results"></ul>
+  </div>
+  
+           <link rel="stylesheet" href="search.css">    
+  
+       <script id="dynamicScript" src="left_panel.js"></script>
+     <script id="dynamicScript" src="right_panel.js"></script>
+
+
+          
+  <title>RPFOZZY НОВОСТИ</title>
+  <nav>
+    <ul>
+      <li>
+        <a onclick="showHome()" id="nav-home"><strong>Главная</strong></a>
+      </li>
+      <li>
+        <a onclick="showCategory('politics')" id="nav-politics"><strong>IFLORIUM CLIENT</strong></a>
+      </li>
+      <li>
+        <a onclick="showCategory('sports')" id="nav-sports"><strong>Моды для 1.1.5</strong></a>
+      </li>
+      <li>
+        <a onclick="showCategory('entertainment')" id="nav-entertainment"><strong>Карты</strong></a>
+      </li>
+      <li>
+        <a onclick="showCategory('technology')" id="nav-technology"><strong>Клиенты</strong></a>
+      </li>
+        
+      <li>
+        <a onclick="showCategory('rp-from-subscribers')" id="nav-rp-from-subscribers"><strong>Ресурс-Паки от подписчиков</strong></a>
+        </li>
+      <li>
+        <a onclick="showCategory('resource-packs')" id="nav-resource-packs"><strong>Ресурс-Паки</strong></a>
+        </li>
+    
+    </ul>
+  </nav>
+  <div class="container">
+    <section id="home" class="home">
+      <div style="position: relative;"><img src="https://legra.ph/file/8a17bace5edb76e211c4a.jpg" alt="Превьюшка" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);"> <img src="https://legra.ph/file/935ba756f5b33f5131b82.jpg" alt="Аватарка" style="position: absolute; bottom: -70px; left: 50%; transform: translateX(-50%); width: 100px; height: 100px; border-radius: 50%; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);"></div>
+      <h2 style="text-align: center; color: #fff; margin-top: 50px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">КТО ТАКОЙ ФОЗЗИ?</h2>
+      <p style="text-align: center; color: #fff; font-weight: bold; font-style: italic; text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">• РП-мейкер •</p>
+      <div style="text-align: center; font-style: italic; font-weight: bold; margin-top: 20px;">
+        <div class="button-block">
+          <a href="https://t.me/rpfozzy" class="btn btn-creator" target="_blank">Telegram - RPFOZZY</a>
+        </div>
+        <div class="button-block">
+          <a href="https://oxy.name/d/Amgh" class="btn btn-creator" target="_blank">IFLORIUM CLIENT (последняя версия)</a>
+        </div>
+        <div class="button-block">
+          <a href="https://rpfozzy_bot" class="btn btn-creator" target="_blank">Telegram Bot RPFOZZY</a>
+        </div>
+        <div class="button-block">
+          <a href="https://rpfozzy_chat" class="btn btn-creator" target="_blank">Telegram Group RPFOZZY</a>
+        </div>
+        <div class="button-block">
+          <a href="https://t.me/tominecraftARCHIVE" class="btn btn-creator" target="_blank">Telegram - (Архив tominecraft)</a>
+        </div>
+        <div class="button-block">
+          <a href="https://t.me/+VHdxmb2NXPwyMzUy" class="btn btn-creator" target="_blank">CLAYNI PACKS (by Clayni0)</a>
+        </div>
+        <div class="button-block">
+          <a href="https://t.me/tominecraft" class="btn btn-creator" target="_blank">TOMINECRAFT (by Clayni0)</a>
+          <div class="dropdown">
+            <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<a href="#" class="btn btn-creator btn-creator" id="openModalBtn5">СВЯЗЬ С ФОЗЗИ</a>
+<div class="button-block">
+<a href="#" class="btn btn-creator" id="openModalBtn7">ОТПРАВИТЬ СВОЙ РЕСУРС ПАК</a>
+</div>
+
+<div id="myModal7" class="modal">
+  <div class="modal-content">
+    <span class="close close7">×</span>
+    <h2>Отправьте свой ресурс пак и он попадёт к нам на сайт</h2>
+    <form id="resourcePackForm">
+      <div class="input-group">
+        <label for="username">Ваш ник:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      
+      <div class="input-group">
+        <label for="description">Описание ресурс пака:</label>
+        <textarea id="description" name="description" required></textarea>
+      </div>
+      
+      <div class="file-input-group">
+        <label for="resourceFile" class="file-label">
+          <i class="fas fa-file-archive"></i>
+          <span>Выбрать файл .mcpack / .zip</span>
+        </label>
+        <input type="file" id="resourceFile" name="resourceFile" accept=".mcpack,.zip" required>
+        <span class="file-name" id="resourceFileName"></span>
+      </div>
+      
+      <div class="file-input-group">
+        <label for="photo" class="file-label">
+          <i class="fas fa-image"></i>
+          <span>Выбрать фото</span>
+        </label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+        <span class="file-name" id="photoFileName"></span>
+      </div>
+              <p>Отправка: <span id="progress">0%</span></p>
+      <div class="file-input-group">
+        <input type="file" id="video" name="video" accept="video/*">
+        <span class="file-name" id="videoFileName"></span>
+      </div>
+      
+      <button type="submit">Отправить</button>
+      <div id="progressContainer" style="display: none;">
+        <div class="progress-bar-container">
+          <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+      </div>
+    </form>
+  </div>
+</div>
+
+    <link rel="stylesheet" href="telegram_bot.css">
+
+     <script id="dynamicScript" src="telegram_bot.js"></script>
+
+            <div id="myModal5" class="modal">
+    <div id="contactModalContent">
+        <span class="close close5">×</span>
+        <h2>Связь с создателем RPFOZZY</h2>
+        <p style="color: rgb(255, 255, 255); background-color: rgb(100, 150, 200); border-radius: 10px; padding: 10px;">Telegram: @Th2FoZzY</p>
+        <p style="color: rgb(255, 255, 255); background-color: rgb(100, 150, 200); border-radius: 10px; padding: 10px;">Место жительства: Украина, Киевская область</p>
+        <p style="color: rgb(255, 255, 255); background-color: rgb(100, 150, 200); border-radius: 10px; padding: 10px;">GMAIL: rpfozzy@gmail.com</p>
+        <p style="color: rgb(255, 255, 255); background-color: rgb(100, 150, 200); border-radius: 10px; padding: 10px;">YouTube: @rpfozzy</p>
+        <div class="dropdown"></div>
+    </div>
+      <link rel="stylesheet" href="связьСфоззи.css">
+                   <script id="dynamicScript" src="связьСфоззи.js"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="politics" class="category">
+      <h2 class="text-center">IFLORIUM CLIENT</h2>
+      <div class="post">
+        <h2 class="text-center">Все версии клиента</h2>
+        <div class="dropdown">
+          <a href="#" class="btn btn-download btn-post" id="openModalBtn6"><b><i>APK FILE FOR IFLORIUM</i></b></a>
+          <div id="myModal6" class="modal">
+            <div class="modal-content"><span class="close close6">×</span>
+            <p>Дата: 3 июня 2024</p>
+            <h2>APK FILE FOR IFLORIUM</h2>
+            <div class="dropdown">
+              <button id="myBtn6">СКАЧАТЬ ПРИЛОЖЕНИЕ</button>
+              <div id="dropdownContent6" class="dropdown-content">
+                <a href="https://oxy.name/d/XQSh">Через Oxy Cloud</a>
+              </div>
+            </div>
+            <p style="color: white; font-style: italic;">Этот APK нужен для работы IFLORIUM CLIENT 4.</p><span style="color:lightgreen;">Почему именно так?</span>
+            <p style="color: white; font-style: italic;">— Этот APK совмещает Блок Лаунчер и Minecraft версии 1.1.5 и ещё один Minecraft версии 1.16.2</p><span style="color:lightgreen;">Работают ли сервера в этом Блок Лаунчере?</span>
+            <p style="color: white; font-style: italic;">— Да, здесь все точно так же, как и в версии 1.1.5, но в этом Блок Лаунчере исправлены ошибки, которые были в 1.1.5. То есть, при запуске обычного официального Minecraft 1.1.5 этот IFLORIUM CLIENT V2-V4 будет содержать ошибки и кучу багов, но наш APK исправит эти баги, и их просто не будет. Короче говоря, если удалить оригинальный майнкрафт - блок лаунчер работать будет и без майнкрафта</p><span style="color:lightgreen;">Как играть на серверах, если у вас вылетает из сервера?</span>
+            <p style="color: white; font-style: italic;">— Перейдите в настройки Блок Лаунчера (значок шестеренки сверху экрана), затем найдите пункт "Безопасный режим" и наслаждайтесь игрой.</p><span style="color:lightblue;"><strong>Работает только на 1.1.5, на других версиях выше этой — миллион багов</strong></span>
+            <p style="color:red;">Работает ли этот APK на Android 10-14?</p>
+            
+            <p style="color: white; font-style: italic;">— Да, всё отлично работает</p>
+
+        <img src="https://legra.ph/file/788b7317486eca200bdcb.jpg" alt="Случайное изображение1">
+        <img src="https://legra.ph/file/d9081bce5cad568931934.jpg" alt="Случайное изображение1">
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="btn btn-creator btn-post" id="openModalBtn4"><b><i>IFLORIUM CLIENT V4</i></b></a>
+          <div id="myModal4" class="modal">
+            <div class="modal-content"><span class="close close4">×</span>
+            <p>Дата: 4 июня 2024</p>
+            <h2>IFLORIUM CLIENT V4</h2>
+            <p style="color: white; font-style: italic;"><strong>IFlorium Client</strong> — один из лучших клиентов в формате ресурс-пака!</p>
+            <p style="color: white; font-style: italic;">♡ Клиент разработан для 1.1.5 — на других версиях баги ♡</p>
+<p style="color: red; font-style: italic;">
+    Видео-Обзор на клиент — 
+    <a href="https://youtu.be/2h-3v75orhI?si=9C0vZY5g2Q1LZ7oe" style="color: blue; text-decoration: underline;">https://youtu.be/2h-3v75orhI?si=9C0vZY5g2Q1LZ7oe</a>
+</p>
+            <div class="dropdown">
+              <button id="myBtn4">ОСТАЛЬНАЯ ИНФОРМАЦИЯ КЛИК</button>
+              <div id="dropdownContent4" class="dropdown-content">
+                <a href="https://telegra.ph/IFLORIUM-CLIENT-06-04">Ссылка на пост в телеграфе</a> <a href="%D0%9E%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82">Ссылка на пост в телеграмме</a> <a href="https://oxy.st/d/HoTh">СКАЧАТЬ</a>
+              </div>
+            </div>
+
+<img src="https://legra.ph/file/93f01d187e34ba161bd37.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/f0e7bd2f9ce7be14d737b.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/3aa15e65c2b627aeff886.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/33c1688197be028f83477.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/a281a53254c5579d1768e.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/843679c559c96e86d62bf.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/b042505c0aee500bb8acb.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/1dab29f8cedc11d4a180c.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/f4224966b81e8808d08b5.jpg" alt="Случайное изображение1">
+<img src="https://legra.ph/file/070842bed5e0d4f089688.jpg" alt="Случайное изображение1">
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="btn btn-creator btn-post" id="openModalBtn1"><b><i>IFLORIUM CLIENT V3</i></b></a>
+          <div id="myModal1" class="modal">
+            <div class="modal-content"><span class="close close1">×</span>
+            <p>Дата: 17 сентября 2023</p>
+            <h2>IFLORIUM CLIENT V3</h2>
+            <p style="color: white; font-style: italic;">IFlorium Client - один из лучших клиентов в виде ресурс пака!</p>
+            <p style="color: white; font-style: italic;">≈≈≈ Клиент разработан для 1.1.5 ≈≈≈</p>
+            <div class="dropdown">
+              <button id="myBtn1">ОСТАЛЬНАЯ ИНФОРМАЦИЯ КЛИК</button>
+              <div id="dropdownContent1" class="dropdown-content">
+                <a href="https://telegra.ph/IFlorium-Client-v3-09-17">Ссылка на пост в телеграфе</a> <a href="https://t.me/rpfozzy/473">Ссылка на пост в телеграмме</a> <a href="https://oxy.name/d/Amgh">СКАЧАТЬ</a>
+              </div>
+            </div>
+     <img src="https://legra.ph/file/e7ab9daf6f95dc3b97f1c.jpg" alt="Изображение 1">
+<img src="https://legra.ph/file/13857e0cd47f8439fd870.jpg" alt="Изображение 2">
+<img src="https://legra.ph/file/1666bc135666dbbda6651.jpg" alt="Изображение 3">
+<img src="https://legra.ph/file/28277b0ccf936bfe07361.jpg" alt="Изображение 4">
+<img src="https://legra.ph/file/302a399e994ac025d11dd.jpg" alt="Изображение 5">
+<img src="https://legra.ph/file/9e266dd0c7c51c287cdab.jpg" alt="Изображение 6">
+<img src="https://legra.ph/file/f2b34606bf4e9b437b7b3.jpg" alt="Изображение 7">
+<img src="https://legra.ph/file/0415eb53095ac30136932.jpg" alt="Изображение 8">
+<img src="https://legra.ph/file/3f3c5104a165269d6721b.jpg" alt="Изображение 9">
+<img src="https://legra.ph/file/84bd2b6bf4e59d38e3b1d.jpg" alt="Изображение 10">
+<img src="https://legra.ph/file/abdbe195996d936beff1b.jpg" alt="Изображение 11">
+<img src="https://legra.ph/file/35ca3595006ddda7fa634.jpg" alt="Изображение 12">
+<img src="https://legra.ph/file/5f90475d26eec27f0fc1a.jpg" alt="Изображение 13">
+<img src="https://legra.ph/file/8eaa483ca0acab7b14cb4.jpg" alt="Изображение 14">
+<img src="https://legra.ph/file/d12ab304281f42acf5e6c.jpg" alt="Изображение 15">
+<img src="https://legra.ph/file/08bb8621ade7fdc5d5b80.jpg" alt="Изображение 16">
+<img src="https://legra.ph/file/871955d13d8d2b2626787.jpg" alt="Изображение 17">
+<img src="https://legra.ph/file/1e2e523137a11b5bf1f9e.jpg" alt="Изображение 18">
+<img src="https://legra.ph/file/bee1ac876991d06e02ec4.jpg" alt="Изображение 19">
+<img src="https://legra.ph/file/084f57e81a759eeb5f4a8.jpg" alt="Изображение 20">
+<img src="https://legra.ph/file/627e8a91e3b7155579eb3.jpg" alt="Изображение 21">
+<img src="https://legra.ph/file/19497778c518ac1d7be60.jpg" alt="Изображение 22">
+<img src="https://legra.ph/file/8a382ae3e70ba5365d12a.jpg" alt="Изображение 23">
+<img src="https://legra.ph/file/a9a6254d0ce1f37f26f95.jpg" alt="Изображение 24">
+<img src="https://legra.ph/file/7df83c8e3ea1da77fe4be.jpg" alt="Изображение 25">
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="btn btn-creator btn-post" id="openModalBtn2"><b><i>IFLORIUM CLIENT V2</i></b></a>
+          <div id="myModal2" class="modal">
+            <div class="modal-content"><span class="close close2">×</span>
+            <p>Дата: 3 сентября 2023</p>
+            <h2>IFLORIUM CLIENT V2</h2>
+            <p style="color: white; font-style: italic;">FOZZY Client - старое название клиента, IFlorium - новое</p>
+            <p style="color: white; font-style: italic;">Работает на 1.1.5</p>
+            <div class="dropdown">
+              <button id="myBtn2">ОСТАЛЬНАЯ ИНФОРМАЦИЯ КЛИК</button>
+              <div id="dropdownContent2" class="dropdown-content">
+                <a href="https://telegra.ph/IFlorium-client-09-03">Ссылка на пост в телеграфе</a> <a href="https://t.me/rpfozzy/457">Ссылка на пост в телеграмме</a> <a href="https://oxy.name/d/yBdh">СКАЧАТЬ</a>
+              </div>
+            </div>
+         <img src="https://legra.ph/file/8d79f3068074c1090fdad.jpg" alt="Изображение 1">
+<img src="https://legra.ph/file/0e0f6cc34774e74229eff.jpg" alt="Изображение 2">
+<img src="https://legra.ph/file/d336cc4e6cd801b6f1124.jpg" alt="Изображение 3">
+<img src="https://legra.ph/file/309b8a6b781a9822ba1e1.jpg" alt="Изображение 4">
+<img src="https://legra.ph/file/302a399e994ac025d11dd.jpg" alt="Изображение 5">
+<img src="https://legra.ph/file/0a1251757f9ac63f01c3f.jpg" alt="Изображение 6">
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="btn btn-creator btn-post" id="openModalBtn3"><b><i>FOZZY CLIENT</i></b></a>
+          <div id="myModal3" class="modal">
+            <div class="modal-content"><span class="close close3">×</span>
+            <p>Дата: 31 августа 2023</p>
+            <h2>FOZZY CLIENT</h2>
+            <p style="color: white; font-style: italic;">Клиент от самого фоззи. Клиент в виде ресурс пака .mcpack</p>
+            <p style="color: white; font-style: italic;">Работает только на 1.1.5</p>
+            <div class="dropdown">
+              <button id="myBtn3">ОСТАЛЬНАЯ ИНФОРМАЦИЯ КЛИК</button>
+              <div id="dropdownContent3" class="dropdown-content">
+                <a href="https://telegra.ph/FOZZY-Client-08-31">Ссылка на пост в телеграфе</a> <a href="https://t.me/rpfozzy/453">Ссылка на пост в телеграмме</a> <a href="https://oxy.name/d/xTch">СКАЧАТЬ</a>
+              </div>
+            </div>
+       <img src="https://legra.ph/file/6b2dfc071daba3d693d62.jpg" alt="Изображение 1">
+<img src="https://legra.ph/file/6a4857c2b7995cc86709d.jpg" alt="Изображение 2">
+<img src="https://legra.ph/file/f0393ec7c91a7592251db.jpg" alt="Изображение 3">
+<img src="https://legra.ph/file/c1a82be26cad78ca9b0e5.jpg" alt="Изображение 4">
+<img src="https://legra.ph/file/78511faad097e77ea906b.jpg" alt="Изображение 5">
+<img src="https://legra.ph/file/48b275ed5ab2809fe569d.jpg" alt="Изображение 6">
+<img src="https://legra.ph/file/00d4e6cb58d44b1b9a0f3.jpg" alt="Изображение 7">
+<img src="https://legra.ph/file/f22bac3d9a2f5e391639f.jpg" alt="Изображение 8">
+<img src="https://legra.ph/file/bf42568777ebd35f22779.jpg" alt="Изображение 9">
+<img src="https://legra.ph/file/8c73303beffbc32e84a5d.jpg" alt="Изображение 10">
+<img src="https://legra.ph/file/8504d294aa45da94360e8.jpg" alt="Изображение 11">
+<img src="https://legra.ph/file/e9a040cc0aeeb10c96151.jpg" alt="Изображение 12">
+<img src="https://legra.ph/file/a57e44fde09b418ea5392.jpg" alt="Изображение 13">
+          </div>
+        </div>
+           <script id="dynamicScript" src="ifloriums.js"></script>
+      </div>
+    </section>
+    <section id="sports" class="category">
+      <h2 class="text-center">Моды | Аддоны</h2>
+      
+          <div class="post">
+
+        <img src="https://telegra.ph/file/43988bea3b48af3d44cd0.jpg" alt="Случайное изображение">
+
+        <p style="color: white;"><strong>РП | ДОПОЛНЕНИЕ『BreadixClient +』</strong></p>
+        <p style="color: white; font-style: italic;">≡ Кастомное меню</p>
+        <p style="color: white; font-style: italic;">Дополнение создано для версии 1.1.5</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄼🄾🅁🄳🄴🅁  🅃🄴🄴🄽</p><a href="https://oxy.st/d/CGWh" class="btn btn-download" target="_blank">СКАЧАТЬ ДОПОЛНЕНИЕ</a> <a href="https://youtu.be/NH_BCSSkbB0?si=2fieG9KROIzUKNuM" class="btn btn-download" target="_blank">СОЗДАТЕЛЬ</a>
+      </div>
+      
+         <div class="post">
+        <img src="https://telegra.ph/file/a2d9edaaef6a68a168c8e.jpg" alt="Случайное изображение">
+        <p style="color: white;"><strong>РП | ДОПОЛНЕНИЕ『Custom Menu』</strong></p>
+        <p style="color: white; font-style: italic;">≡ Кастомное меню</p>
+        <p style="color: white; font-style: italic;">Дополнение создано для версии 1.1.5</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄼🄾🅁🄳🄴🅁  🅃🄴🄴🄽</p><a href="https://oxy.st/d/giWh" class="btn btn-download" target="_blank">СКАЧАТЬ ДОПОЛНЕНИЕ</a> <a href="https://youtu.be/2h-3v75orhI?si=9C0vZY5g2Q1LZ7oe" class="btn btn-download" target="_blank">СОЗДАТЕЛЬ</a>
+      </div>
+      
+      <div class="post">
+        <img src="https://legra.ph/file/2cdf0490fac46cb2b3f28.jpg" alt="Случайное изображение">
+        <p style="color: white;"><strong>РП | ДОПОЛНЕНИЕ『Custom Menu』</strong></p>
+        <p style="color: white; font-style: italic;">≡ Кастомное меню</p>
+        <p style="color: white; font-style: italic;">Дополнение создано для версии 1.1.5</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.st/d/dTIh" class="btn btn-download" target="_blank">СКАЧАТЬ ДОПОЛНЕНИЕ</a> <a href="https://youtube.com/@morderix" class="btn btn-download" target="_blank">СОЗДАТЕЛЬ</a>
+      </div>
+      
+      <div class="post">
+        <img src="https://legra.ph/file/ebe234d9679f498e38212.jpg" alt="Случайное изображение1">
+        <p style="color: white;"><strong>РП | МОД『X-Ray + Night Vision』</strong></p>
+        <p style="color: white; font-style: italic;">Ночное зрение можно будет скачать отдельно(работает только на 1.1.5)</p>
+        <p style="color: white; font-style: italic;">- Взята функция ночного зрения из клиента "IFLORIUM" - мой клиент</p>
+        <p style="color: white; font-style: italic;">НОЧНОЕ ЗРЕНИЕ ИЛИ X-RAY безопасны, они в виде ресурс пака. Настоятельно советую не палится с X-RAY</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.name/d/soDh" class="btn btn-download" target="_blank">СКАЧАТЬ X-RAY</a> <a href="https://oxy.st/d/LoDh" class="btn btn-download" target="_blank">СКАЧАТЬ НОЧНОЕ ЗРЕНИЕ ОТДЕЛЬНО ДЛЯ 1.1.5</a>
+      </div>
+      <div class="post">
+
+        <img src="https://legra.ph/file/ac3b700a7bf2c899eb65d.jpg" alt="Случайное изображение1">
+        
+        <p style="color: white;"><strong>РП | МОД</strong></p>
+        <p style="color: white; font-style: italic;">Анимированный песчаник. Работает на всех версиях</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.st/d/Zdxh" class="btn btn-download" target="_blank">СКАЧАТЬ МОД</a>
+      </div>
+      <div class="post">
+
+        <img src="https://legra.ph/file/bee4ebb06e77ff7daec9b.jpg" alt="Случайное изображение1">
+     
+        <p style="color: white;"><strong>РП Resources 1.20 to 1.1.5</strong></p>
+        <p style="color: white; font-style: italic;">• sizᴇ: [53.55МБ]</p>
+        <p style="color: white; font-style: italic;">Все игровые ресурсы включая - звуки, блоки, предметы всё что было в 1.20 было перенесено в версию 1.1.5 (при входе в игру и при входе на сверер/мир могут быть лаги, так как весит сам ресурс пак довольно много)</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.st/d/Ukwh" class="btn btn-download" target="_blank">СКАЧАТЬ РЕСУРСЫ ИЗ 1.20 ДЛЯ 1.1.5</a>
+      </div>
+      <div class="post">
+
+        <img src="https://telegra.ph/file/db116391a014def509595.jpg" alt="Случайное изображение">
+      
+        <p style="color: white;"><strong>Кукла вашего персонажа для 1.1.5</strong></p>
+        <p style="color: white; font-style: italic;">Изображение вашего персонажа находится справа сверху</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.name/d/hPch" class="btn btn-download" target="_blank">СКАЧАТЬ КУКЛУ</a>
+      </div>
+      <div class="post">
+
+        <img src="https://telegra.ph/file/4f3ba397dc1dbdfabe950.jpg" alt="Случайное изображение">
+      
+        <p style="color: white;"><strong>Уменьшение кружка</strong></p>
+        <p style="color: white; font-style: italic;">Изменит размер вашего кружка(нажатия)</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.st/d/Mxch" class="btn btn-download" target="_blank">СКАЧАТЬ УМЕНЬШЕНИЕ КРУЖКА</a>
+      </div>
+      <div class="post">
+        <p style="color: white;"><strong>Убрать кружок</strong></p>
+        <p style="color: white; font-style: italic;">Не будет отклика(нажатия), будет всё прозрачно</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.cloud/d/Yjff" class="btn btn-download" target="_blank">СКАЧАТЬ УДАЛЕНИЕ КРУЖКА</a>
+      </div>
+      <div class="post">
+
+        <img src="https://telegra.ph/file/aa05c795d18c620e05f71.jpg" alt="Случайное изображение">
+      
+        <p style="color: white;"><strong>Убрать кнопки в игре</strong></p>
+        <p style="color: white; font-style: italic;">Удаление всех кнопок, которые находятся на экране</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.name/d/Nxch" class="btn btn-download" target="_blank">СКАЧАТЬ МОД</a>
+      </div>
+      <div class="post">
+
+        <img src="https://telegra.ph/file/1e5087dec3ed68a879220.jpg" alt="Случайное изображение">
+      
+        <p style="color: white;"><strong>Таб</strong></p>
+        <p style="color: white; font-style: italic;">Этот мод добавляет функцию в чате, а именно таб</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.name/d/AXQg" class="btn btn-download" target="_blank">СКАЧАТЬ ТАБ ДЛЯ 1.1.5</a>
+      </div>
+      <div class="post">
+
+        <img src="https://telegra.ph/file/742dc6841686cca8fda4f.jpg" alt="Случайное изображение">
+       
+        <p style="color: white;"><strong>Кружок + Крест</strong></p>
+        <p style="color: white; font-style: italic;">Этот мод даёт возможность включить так и кружок, так и крест, одновременно</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.st/d/hYQg" class="btn btn-download" target="_blank">СКАЧАТЬ КРУЖОК + КРЕСТ</a>
+      </div>
+      <div class="post">
+        <p style="color: white;"><strong>Удаление партиклов, эффектов</strong></p>
+        <p style="color: white; font-style: italic;">Этот мод исключает визуальные эффекты, порождаемые частицами в игре [то есть убирает партиклы]</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.name/d/coRg" class="btn btn-download" target="_blank">СКАЧАТЬ МОД</a>
+      </div>
+      <div class="post">
+
+        <img src="https://telegra.ph/file/e7516f96cf3f914974223.jpg" alt="Случайное изображение">
+        
+        <p style="color: white;"><strong>Приватный инвентарь</strong></p>
+        <p style="color: white; font-style: italic;">Это приватный инвентарь, новый интерфейс в инвентаре</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.name/d/swbh" class="btn btn-download" target="_blank">СКАЧАТЬ ИНВЕНТАРЬ</a>
+      </div>
+      <div class="post">
+        <p style="color: white;"><strong>Удаление огня</strong></p>
+        <p style="color: white; font-style: italic;">Этот мод удаляет изображение огня</p>
+        <p style="color: lightgreen; font-style: italic;">• © 🄵🄾🅉🅉🅈</p><a href="https://oxy.st/d/Gxch" class="btn btn-download" target="_blank">СКАЧАТЬ МОД НА УДАЛЕНИЕ ОГНЯ</a>
+      </div>
+    </section>
+    <section id="entertainment" class="category">
+      <h2 class="text-center">Карты</h2>
+      <div class="post">
+
+        <img src="https://legra.ph/file/27a948f0d1039b3248d82.jpg" alt="Случайное изображение">
+   
+        <p style="color:white; font-weight:bold;">КАРТА『Texture pack review map』</p>
+        <p style="color: white; font-style: italic;">Работает только на версиях 1.12 - 1.20</p>
+        <p style="color: white; font-style: italic;">Обзор на карту: <a href="https://youtu.be/w4cDxu5gbkQ?si=G_HoTAi1z9Wefvyf" target="_blank">https://youtu.be/w4cDxu5gbkQ?si=G_HoTAi1z9Wefvyf</a></p><a href="https://oxy.name/d/jKkh" class="btn btn-download" target="_blank">СКАЧАТЬ КАРТУ</a>
+      </div>
+      <div class="post">
+
+    <img src="https://legra.ph/file/9d1a325ff40aec41a9895.jpg" alt="Изображение 13">
+
+
+        <p style="color:white; font-weight:bold;">КАРТА『ОБЗОР РЕСУРС ПАКОВ』</p>
+        <p style="color: white; font-style: italic;">Работает только на версии 1.1.5</p><a href="https://oxy.name/d/CUvf" class="btn btn-download" target="_blank">СКАЧАТЬ КАРТУ</a>
+      </div>
+      <div class="post">
+
+    <img src="https://legra.ph/file/8abfb7a2d9634d3a85210.jpg" alt="Изображение 13">
+        <p style="color:white; font-weight:bold;">КАРТА『ОБЗОР РЕСУРС ПАКОВ』</p>
+        <p style="color: white; font-style: italic;">Работает только на версии 1.1.5</p><a href="https://oxy.name/d/uUvf" class="btn btn-download" target="_blank">СКАЧАТЬ КАРТУ</a>
+      </div>
+      <div class="post">
+    <img src="https://legra.ph/file/724ab584bb07fb51dbb07.jpg" alt="Изображение 13">
+
+        <p style="color:white; font-weight:bold;">КАРТА ДЛЯ ПВП С ДРУЗЬЯМИ</p>
+        <p style="color: white; font-style: italic;">Работает только на версии 1.1.5</p><a href="https://www.mediafire.com/file/hkyw2yq6xm33nak/WORLD+PVP.mcworld/file" class="btn btn-download" target="_blank">СКАЧАТЬ КАРТУ</a>
+      </div>
+      <div class="post">
+
+    <img src="https://legra.ph/file/724ab584bb07fb51dbb07.jpg" alt="Изображение 13">
+
+        <p style="color:white; font-weight:bold;">КАРТА ДЛЯ ПРОВЕРКИ СТРОИТЕЛЬСТВА [МИНИ БЕД ВАРС]</p>
+        <p style="color: white; font-style: italic;">Работает только на версии 1.1.5</p><a href="https://www.mediafire.com/file/pabj53f9gspwjxp/CONSTRUCTION+TRAINING.mcworld/file" class="btn btn-download" target="_blank">СКАЧАТЬ КАРТУ</a>
+      </div>
+      <div class="post">
+
+    <img src="https://legra.ph/file/513fdbe98892eeb95fac5.jpg" alt="Изображение 13">
+
+        <p style="color:white; font-weight:bold;">КАРТА ДЛЯ ВЫЖИВАНИЯ, СЕРВЕРА</p>
+        <p style="color: white; font-style: italic;">Работает только на версии 1.1.5</p><a href="https://www.mediafire.com/file/fiqt8bk3d04w37q/grief+spawn.mcworld/file" class="btn btn-download" target="_blank">СКАЧАТЬ КАРТУ</a>
+      </div>
+    </section>
+    <section id="technology" class="category">
+      <h2 class="text-center">Клиенты от версии 1.1.5 по 1.20</h2>
+      <div class="post">
+        <h2>[Utility UI] - "Пользовательский интерфейс утилиты" для Minecraft Bedrock Edition(мод меню)</h2>
+        <p style="color: white; font-style: italic;">Поддерживаемые версии: 1.18 - 1.20</p>
+
+    <img src="https://legra.ph/file/8865823e0e9ca0f23a708.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Все функции/скриншоты клиента: <a href="https://telegra.ph/Tekstury-Udobnyj-i-poleznyj-interfejs-02-04" target="_blank">https://telegra.ph/Tekstury-Udobnyj-i-poleznyj-interfejs-02-04</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/528" target="_blank">https://t.me/rpfozzy/528</a></p><a href="https://oxy.name/d/pMFh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ ДЛЯ 1.18 - 1.20</a>
+      </div>
+      <div class="post">
+        <h2>[Better Client] - "лучший клиент" для Minecraft Bedrock Edition</h2>
+        <p style="color: white; font-style: italic;">Поддерживаемые версии: 1.10 - 1.20</p>
+
+    <img src="https://legra.ph/file/1a8693c61dc2b08dc70f8.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://telegra.ph/Better-Client-01-14" target="_blank">https://telegra.ph/Better-Client-01-14</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/523" target="_blank">https://t.me/rpfozzy/523</a></p><a href="https://oxy.st/d/kZBh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ ДЛЯ 1.10 - 1.18</a> <a href="https://oxy.st/d/nZBh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ ДЛЯ 1.19 - 1.20</a>
+      </div>
+      <div class="post">
+        <h2>[BREADIX Client] - вышло обновление клиента с уникальными возможностями и прокаченной оптимизацией.</h2>
+        <p style="color: white; font-style: italic;">Поддерживаемая версия: 1.1.5</p>
+
+    <img src="https://legra.ph/file/34c2bf63f39c7a3c0b84e.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://t.me/rpfozzy/521" target="_blank">https://t.me/rpfozzy/521</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/521" target="_blank">https://t.me/rpfozzy/521</a></p><a href="https://oxy.name/d/kEAh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ</a>
+      </div>
+      <div class="post">
+        <h2>[Project Light Client] - Легкий клиент [2МБ]</h2>
+        <p style="color: white; font-style: italic;">Создан для 1.19 - 1.20</p>
+
+    <img src="https://legra.ph/file/3b351d2b6d2c3a96040a0.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://telegra.ph/Light-Client-119-12-24" target="_blank">https://telegra.ph/Light-Client-119-12-24</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/516" target="_blank">https://t.me/rpfozzy/516</a></p><a href="https://oxy.name/d/Hlyh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ</a>
+      </div>
+      <div class="post">
+        <h2>[Astral Client] - астральный клиент. Мод функции</h2>
+        <p style="color: white; font-style: italic;">Создан для 1.18 - 1.20 (в виде ресурс пака, так же работает на версиях ниже, но с багами)</p>
+
+    <img src="https://legra.ph/file/8ed44f5698c928ede2a36.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://telegra.ph/Astral-Client-11-26" target="_blank">https://telegra.ph/Astral-Client-11-26</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/499" target="_blank">https://t.me/rpfozzy/499</a></p><a href="https://oxy.st/d/AZsh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ</a>
+      </div>
+      <div class="post">
+        <h2>[Saturn client] - клиент сатурн. Мод функции</h2>
+        <p style="color: white; font-style: italic;">Создан для 1.14 - 1.20 (в виде ресурс пака)</p>
+
+    <img src="https://legra.ph/file/1231b2da22e3c8fbc9e85.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://telegra.ph/Saturn-Client-11-12" target="_blank">https://telegra.ph/Saturn-Client-11-12</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/492" target="_blank">https://t.me/rpfozzy/492</a></p><a href="https://oxy.st/d/uCqh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ</a>
+      </div>
+
+
+     <div class="post">
+        <h2>[Bedezu client] - клиент бедезу. Клиент в виде ресурс пака</h2>
+        <p style="color: white; font-style: italic;">Создан для 1.14 - 1.20 [клиент может быть с багами на версии 1.14]</p>
+
+    <img src="https://telegra.ph/file/e226879bd3d20cb8d6cbe.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://telegra.ph/Bedezu-Client-09-13" target="_blank">https://telegra.ph/Bedezu-Client-09-13</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/471" target="_blank">https://t.me/rpfozzy/471</a></p><a href="https://oxy.name/d/prfh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ</a>
+      </div>
+
+      <div class="post">
+        <h2>[Hydra client] - клиент гидра. Клиент в виде ресурс пака</h2>
+        <p style="color: white; font-style: italic;">Создан для 1.14 - 1.20</p>
+
+    <img src="https://telegra.ph/file/c19085392a52e010a5929.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://telegra.ph/Gidra-klient-09-11" target="_blank">https://telegra.ph/Gidra-klient-09-11</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/468" target="_blank">https://t.me/rpfozzy/468</a></p><a href="https://oxy.name/d/hWeh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ</a>
+      </div>
+
+       <div class="post">
+        <h2>[Luconia client] - клиент лукония. Мало кому известный клиент, похожий чем-то на чит, но тут всё легально</h2>
+        <p style="color: white; font-style: italic;">Создан для 1.18 - 1.20</p>
+
+    <img src="https://telegra.ph/file/cf8fe1e6bd547ebd719bd.jpg" alt="Изображение 13">
+
+        <p style="color: white; font-style: italic;">Остальные функции: <a href="https://telegra.ph/Luconia-Client-09-07" target="_blank">https://telegra.ph/Luconia-Client-09-07</a></p>
+        <p style="color: white; font-style: italic;">Пост в телеграмме: <a href="https://t.me/rpfozzy/462" target="_blank">https://t.me/rpfozzy/462</a></p><a href="https://oxy.st/d/Ojeh" class="btn btn-download" target="_blank">СКАЧАТЬ КЛИЕНТ</a>
+      </div>
+
+    </section>
+    
+<body>
+   <div id="resource-packs-container"></div>
+
+   <script>
+      document.addEventListener("DOMContentLoaded", function() {
+         fetch('resource-packs.html')
+            .then(response => response.text())
+            .then(data => {
+               document.getElementById('resource-packs-container').innerHTML = data;
+            })
+            .catch(error => console.error('Error loading resource packs:', error));
+      });
+   </script>
+</body>
+
+
+<section id="rp-from-subscribers" class="category">
+      <h2 class="text-center">Ресурс-Паки от подписчиков</h2>
+       <div class="post">
+<h2 style="color: red;">ЧТОБЫ ЗДЕСЬ ПОЯВИЛСЯ РЕСУРС-ПАК, ПЕРЕЙДИТЕ В ГЛАВНУЮ КАТЕГОРИЮ И ПРОЛИСТАЙТЕ В САМЫЙ НИЗ</h2>
+       </div>
+       
+       <div class="post">
+
+        <img src="https://telegra.ph/file/7988b7fa178d9caedd681.jpg" alt="Случайное изображение1">
+
+    <p style="color:white; font-weight:bold;"><strong>RP 16x16</strong></p>
+    <p style="color: white; font-style: italic;">• цʙᴇᴛ: Rainbow</p>
+    <p style="color: white; font-style: italic;">• sizᴇ: [12,54МБ]</p>
+    <p style="color: lightgreen; font-style: italic;">• © 🅆_🄵①</p><a href="https://oxy.st/d/ErXh" class="btn btn-download" target="_blank">СКАЧАТЬ РЕСУРС ПАК</a>
+</div>
+       
+        <div class="post">
+
+        <img src="https://telegra.ph/file/549f38b21e190c8b34793.jpg" alt="Случайное изображение1">
+
+    <p style="color:white; font-weight:bold;"><strong>RP 16x16</strong></p>
+    <p style="color: white; font-style: italic;">• цʙᴇᴛ: RP BOOST FPS</p>
+    <p style="color: white; font-style: italic;">• sizᴇ: [1,3МБ]</p>
+    <p style="color: lightgreen; font-style: italic;">• © 🄺🄸🅁🄰🅂🄷🄸</p><a href="https://oxy.st/d/JzWh" class="btn btn-download" target="_blank">СКАЧАТЬ РЕСУРС ПАК</a>
+</div>
+       <div class="post">
+
+        <img src="https://telegra.ph/file/475005aaab840de5bdb54.jpg" alt="Случайное изображение1">
+
+    <p style="color:white; font-weight:bold;"><strong>RP 32x32</strong></p>
+    <p style="color: white; font-style: italic;">• цʙᴇᴛ: Black (Akuma)</p>
+    <p style="color: white; font-style: italic;">• sizᴇ: [1,6МБ]</p>
+    <p style="color: lightgreen; font-style: italic;">• © 🅅🄴🅁①🄰🄳🄴</p><a href="http://oxy.st/d/TlUh" class="btn btn-download" target="_blank">СКАЧАТЬ РЕСУРС ПАК</a>
+</div>
+      <div class="post">
+
+        <img src="https://telegra.ph/file/45ed6700eae456ced4b84.jpg" alt="Случайное изображение1">
+
+    <p style="color:white; font-weight:bold;"><strong>RP 32x32</strong></p>
+    <p style="color: white; font-style: italic;">• цʙᴇᴛ: Red</p>
+    <p style="color: white; font-style: italic;">• sizᴇ: [2,4МБ]</p>
+    <p style="color: lightgreen; font-style: italic;">• © 🅅🄴🅁①🄰🄳🄴</p><a href="https://oxy.st/d/JjUh" class="btn btn-download" target="_blank">СКАЧАТЬ РЕСУРС ПАК</a>
+</div>
+</section>
+
+
+
+
+  </div>
+  <footer>
+    <div class="container">
+      <p><a href="http://t.me/rpfozzy" target="_blank"><span style="color: red;">THEFOZZY</span></a> | 2 0 2 2 — 2 0 2 4</p>
+    </div>
+  </footer>
+  <script>
+
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            // Добавляем класс анимации при загрузке страницы
+            const elements = document.querySelectorAll('a, ul, li, img, input, textarea, .btn');
+            elements.forEach(element => {
+                element.classList.add('slide-in');
+            });
+        });
+
+        function showHome() {
+            setActiveCategory('home');
+            setActiveNav('nav-home');
+        }
+
+        function showCategory(categoryId) {
+            setActiveCategory(categoryId);
+            setActiveNav('nav-' + categoryId);
+        }
+
+        function setActiveCategory(categoryId) {
+            var categories = document.querySelectorAll('.category, .home');
+            categories.forEach(function(category) {
+                category.classList.remove('active', 'slide-in');
+                category.classList.add('slide-out');
+                category.addEventListener('animationend', function() {
+                    category.classList.remove('slide-out');
+                }, {
+                    once: true
+                });
+            });
+            var activeCategory = document.getElementById(categoryId);
+            activeCategory.classList.remove('slide-out');
+            activeCategory.classList.add('active', 'slide-in');
+        }
+
+        function setActiveNav(navId) {
+            var navLinks = document.querySelectorAll('nav ul li a');
+            navLinks.forEach(function(navLink) {
+                navLink.classList.remove('active');
+            });
+            var activeNavLink = document.getElementById(navId);
+            activeNavLink.classList.add('active');
+        }
+  </script>
+</body>
+</html>
+
+  <style>
+    .image-container {
+        position: relative;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #ffffff, 0 0 3px #ffffff, 0 0 3px #ffffff, 0 0 3px #ffffff;
+    }
+
+    .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(20px);
+        transition: filter 0.5s ease;
+    }
+
+    .load-button {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 60px;
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s ease, opacity 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .load-button:hover {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .load-button::before {
+        content: '';
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        border: 3px solid transparent;
+        border-top-color: transparent;
+        border-radius: 50%;
+        display: none;
+    }
+
+    .load-button.loading::before {
+        border-top-color: #ffffff;
+        display: block;
+        animation: spinAlternate 2s linear infinite;
+    }
+
+    .load-button::after {
+        content: '➜';
+        color: white;
+        font-size: 30px;
+        transform: rotate(90deg) translateY(-1.3px);
+    }
+
+    @keyframes spinAlternate {
+        0% {
+            transform: rotate(0deg);
+        }
+        50% {
+            transform: rotate(180deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+
+    .progress-bar {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 8px;
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 4px;
+        overflow: hidden;
+        display: none;
+    }
+
+    .progress-bar.active {
+        display: block;
+    }
+</style>
+
+<script>
+    const imageContainers = document.querySelectorAll('.image-container');
+
+    imageContainers.forEach(container => {
+        const image = container.querySelector('.image');
+        const loadButton = container.querySelector('.load-button');
+        const progressBar = container.querySelector('.progress-bar');
+
+        loadButton.addEventListener('click', () => {
+            loadButton.classList.add('loading');
+            progressBar.classList.add('active');
+            let progress = 0;
+            progressBar.style.background = `conic-gradient(from 0deg, transparent 0%, transparent 100%)`;
+            const interval = setInterval(() => {
+                progress += 1;
+                progressBar.style.background = `conic-gradient(from 0deg, white ${progress}%, transparent ${progress}%)`;
+
+                if (progress >= 100) {
+                    clearInterval(interval);
+                    image.style.filter = 'blur(0)';
+                    loadButton.style.opacity = '0';
+                    progressBar.style.opacity = '0';
+                    setTimeout(() => {
+                        loadButton.style.display = 'none';
+                        progressBar.style.display = 'none';
+                    }, 300);
+                }
+            }, 20);
+        });
+    });
+</script>
+</body>
+</html> 
